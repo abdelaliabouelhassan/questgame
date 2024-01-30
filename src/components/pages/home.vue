@@ -1,7 +1,7 @@
 <template>
     <MainLaout>
-        <div class=" w-full">
-            dsf
+        <div class=" w-full h-screen">
+            <img src="/images/home/background.svg" class=" w-full h-full object-cover" alt="">
         </div>
     </MainLaout>
 </template>

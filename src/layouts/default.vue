@@ -1,7 +1,9 @@
 <template>
-    <div class=" w-full">
+    <div class=" w-full overflow-hidden ">
         <Header />
-        <slot />
+      <div class=" w-full">
+          <slot />
+      </div>
         <Footer />
     </div>
 </template>
