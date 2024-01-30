@@ -4,7 +4,7 @@
       <div class=" w-full">
           <slot />
       </div>
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 
