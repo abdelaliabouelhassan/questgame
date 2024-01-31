@@ -18,3 +18,7 @@
 .titleShadow {
     text-shadow: 4px 4px 20px #000;
 }
+
+.textShadow {
+    text-shadow: 2.975px 2.975px 4.462px rgba(0, 0, 0, 0.30);
+}

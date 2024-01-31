@@ -6,7 +6,7 @@
                 <button>
                     <img src="/assets/menubtn.svg" class=" w-[3.5rem] sm:w-full sm:h-full" alt="">
                 </button>
-                <div class=" absolute flex w-full top-[123px] sm:top-[122px]">  
+                <div class=" absolute flex w-full top-[123px] -left-0.5 sm:left-auto sm:top-[122px]">  
                     <div class=" m-auto relative">
                          <img src="/assets/Mask.svg"  alt="">
                            <div class=" absolute z-10 w-full sm:w-fit flex -top-0 sm:-top-20 left-0 sm:left-14">
