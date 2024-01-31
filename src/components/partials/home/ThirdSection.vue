@@ -11,9 +11,9 @@
                                 <img src="/assets/book.svg" alt="">
                             </div>
                         <div class=" flex flex-col items-center space-y-4 -mt-10">
-                            <h1 class=" max-w-[24rem] text-[#FFE0C3] text-center titleShadow text-[1.5rem] md:text-[2.5rem] leading-[115%] font-normal">The AI powered Story Generator</h1>
-                            <p class=" text-center max-w-[31.4375rem] text-[#FFE0C3] text-[1rem] md:text-[1.125rem] leading-normal font-normal">
-                                Story Builder is a powerful AI tool that lets you effortlessly create custom quests with rich, engaging stories. You can create epic adventures, romantic stories, thrilling sagas, or even funny fables, all in just a few clicks.
+                            <h1 class=" max-w-[24rem] text-[#FFE0C3] text-center titleShadow text-[1.5rem] md:text-[2.5rem] leading-[115%] font-normal">{{$t('ai_powerd')}}</h1>
+                            <p class=" text-center max-w-[31.4375rem] font-quantico text-[#FFE0C3] text-[1rem] md:text-[1.125rem] leading-normal font-normal">
+                                {{$t('story_build')}}
                             </p>
                            
                         </div>
@@ -21,11 +21,11 @@
                                 
                                 <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400   w-[16.4375rem]   h-[4.75rem] text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
                                 
-                                    <span class=" z-10 relative"> {{$t('Generate a Story')}}</span>
+                                    <span class=" z-10 relative"> {{$t('generate_story')}}</span>
                                     <img src="/assets/redbtn.svg" class=" absolute  w-full h-full  top-0 left-0" alt="">
                                 </button>
                                 <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400   w-[11.97544rem]  h-[4.75rem] text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
-                                    <span class=" z-10 relative "> {{$t('Read More')}}</span>
+                                    <span class=" z-10 relative "> {{$t('read_more')}}</span>
                                     <img src="/assets/yelllowbtn.svg" class=" absolute w-full h-full   top-0 left-0" alt="">
                                 </button>
                             </div>
@@ -37,10 +37,9 @@
                                 <img src="/assets/caps.svg" alt="">
                             </div>
                         <div class=" flex flex-col items-center space-y-4 -mt-10">
-                            <h1 class=" max-w-[16rem] text-[#FFE0C3] text-center titleShadow text-[2.5rem] leading-[115%] font-normal">Quest creation tool</h1>
-                            <p class=" text-center max-w-[31.4375rem] text-[#FFE0C3] text-[1.125rem] leading-normal font-normal">
-                                Quest Fantasy's **quest creation** interface has been carefully designed to provide a user-friendly and intuitive experience for creators. The **edit view** allows total customization of your characters and protagonists.
-                                This design allows creators to effectively ....
+                            <h1 class=" max-w-[16rem] text-[#FFE0C3] text-center titleShadow text-[2.5rem] leading-[115%] font-normal">{{$t('creation_tool')}}</h1>
+                            <p class=" text-center max-w-[31.4375rem] font-quantico text-[#FFE0C3] text-[1.125rem] leading-normal font-normal">
+                               {{$t('quest_fantasy_creation')}} ....
                             </p>
                            
                         </div>
@@ -48,11 +47,11 @@
                                 
                                 <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400   w-[16.4375rem]   h-[4.75rem] text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
                                 
-                                    <span class=" z-10 relative"> {{$t('Quest Creation')}}</span>
+                                    <span class=" z-10 relative"> {{$t('quest_creation')}}</span>
                                     <img src="/assets/redbtn.svg" class=" absolute  w-full h-full  top-0 left-0" alt="">
                                 </button>
                                 <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400   w-[11.97544rem]  h-[4.75rem] text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
-                                    <span class=" z-10 relative "> {{$t('Read More')}}</span>
+                                    <span class=" z-10 relative "> {{$t('read_more')}}</span>
                                     <img src="/assets/yelllowbtn.svg" class=" absolute w-full h-full   top-0 left-0" alt="">
                                 </button>
                         </div>
@@ -64,9 +63,9 @@
                                 <img src="/assets/mmobook.svg" alt="">
                             </div>
                         <div class=" flex flex-col items-center space-y-4 -mt-10">
-                            <h1 class=" max-w-[16rem] text-[#FFE0C3] text-center titleShadow text-[2.5rem] leading-[115%] font-normal">Gameplay</h1>
-                            <p class=" text-center max-w-[56.8125rem] text-[#FFE0C3] text-[1.125rem] leading-normal font-normal">
-                                Quest Fantasy offre une expérience de jeu en ligne immersive et rétro avec un MMORPG sur navigateur. Plongez dans un univers fantastique rétro inspiré par les classiques du RPG et les "Livres dont vous êtes le héros". Le jeu se déroule dans une esthétique 2D isométrique, évoquant la nostalgie des consoles Super NES et des premiers jours de la PlayStation 1.
+                            <h1 class=" max-w-[16rem] text-[#FFE0C3] text-center titleShadow text-[2.5rem] leading-[115%] font-normal">{{$t('gameplay')}}</h1>
+                            <p class=" text-center font-quantico max-w-[56.8125rem] text-[#FFE0C3] text-[1.125rem] leading-normal font-normal">
+                                {{$t('gameplay_offre')}}
                             </p>
                            
                         </div>
@@ -80,19 +79,19 @@
                                 </button>
                                  <button class=" relative textShadow  hover:scale-110 duration-200 hover:text-yellow-400    h-[3.68819rem] w-[13.62569rem]   text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
                                    <div class=" m-auto">
-                                     <span class=" z-10 relative"> {{$t('Tactical combat')}}</span>
+                                     <span class=" z-10 relative"> {{$t('tactical_combat')}}</span>
                                    </div>
                                     <img src="/assets/woodbtn.svg" class=" absolute  w-full h-full  top-0 left-0" alt="">
                                 </button>
                                  <button class=" relative textShadow  hover:scale-110 duration-200 hover:text-yellow-400    h-[3.68819rem] w-[12.25063rem]   text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
                                    <div class=" m-auto">
-                                     <span class=" z-10 relative"> {{$t('Exploration')}}</span>
+                                     <span class=" z-10 relative"> {{$t('exploration')}}</span>
                                    </div>
                                     <img src="/assets/woodbtn.svg" class=" absolute  w-full h-full  top-0 left-0" alt="">
                                 </button>
                                 <button class=" relative textShadow  hover:scale-110 duration-200 hover:text-yellow-400    h-[3.68819rem] w-[12.25063rem]   text-[1rem] md:text-[1.30156rem] text-white text-center font-normal">
                                    <div class=" m-auto">
-                                     <span class=" z-10 relative"> {{$t('Rewards')}}</span>
+                                     <span class=" z-10 relative"> {{$t('rewards')}}</span>
                                    </div>
                                     <img src="/assets/woodbtn.svg" class=" absolute  w-full h-full  top-0 left-0" alt="">
                                 </button>
@@ -104,9 +103,7 @@
              </div>
         </div>
 
-        <div class=" w-full bg-[#180C07] h-[25.3125rem] absolute left-0 top-72 hidden lg:block">
-
-        </div>
+        <div class=" w-full bg-[#180C07] h-[25.3125rem] absolute left-0 top-72 hidden lg:block"></div>
        
     </section>
 </template>

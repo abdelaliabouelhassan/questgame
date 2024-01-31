@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        quantico: ['Quantico','sans serif']
+      }
+    },
   },
   plugins: [],
 }

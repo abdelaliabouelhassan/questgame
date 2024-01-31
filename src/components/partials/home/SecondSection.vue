@@ -4,7 +4,7 @@
             <div class=" flex flex-col items-center space-y-5">
                 <h1 class=" text-[#EB6A21] titleShadow text-[1.5rem] md:text-[2rem] font-normal text-center leading-normal">{{$t('welcome_to')}}</h1>
                 <h2 class=" text-center text-[#FFE0C3] titleShadow font-normal text-[3rem] md:text-[4.5rem] leading-normal">{{$t('quest_fantasy')}}</h2>
-                <p class=" text-center font-normal text-[#FFE0C3]  text-base md:text-lg leading-normal max-w-[53.8125rem]">
+                <p class=" text-center font-quantico font-normal text-[#FFE0C3]  text-base md:text-lg leading-normal max-w-[53.8125rem]">
                     {{$t('captivating_pg')}}
                 </p>
             </div>
