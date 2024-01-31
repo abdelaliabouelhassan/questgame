@@ -1,9 +1,8 @@
 <template>
     <MainLaout>
      <FirstSection />
-      <div class=" w-full h-40">
-sdf
-      </div>
+     <SecondSection />
+     <ThirdSection />
     </MainLaout>
 </template>
 
@@ -11,6 +10,8 @@ sdf
 <script setup>
  import MainLaout from '../../layouts/default.vue'
  import FirstSection from '../partials/home/FirstSection.vue'
+ import SecondSection from '../partials/home/SecondSection.vue'
+ import ThirdSection from  '../partials/home/ThirdSection.vue'
 </script>
 
 

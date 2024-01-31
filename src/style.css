@@ -14,3 +14,7 @@
 * {
     font-family:'Quinthero', sans-serif;
 }
+
+.titleShadow {
+    text-shadow: 4px 4px 20px #000;
+}

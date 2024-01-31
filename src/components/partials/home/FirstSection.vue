@@ -8,7 +8,7 @@
                     <img src="/images/home/finalnoback.svg" class=" w-full object-cover h-full" alt="">
                 </div>
                 <div class=" flex w-full flex-col items-center max-w-[65rem] space-y-7">
-                    <h1 class=" text-[#FFE0C3] text-center text-[2rem] sm:text-[4rem] md:text-[6rem] font-normal leading-[114.583%]" style="text-shadow: 4px 4px 20px #000;">{{$t('story')}} <span class=" text-[#FFD601]">{{$t('hero')}}</span></h1>
+                    <h1 class=" text-[#FFE0C3] text-center text-[2rem] sm:text-[4rem] md:text-[6rem] font-normal leading-[114.583%] titleShadow">{{$t('story')}} <span class=" text-[#FFD601]">{{$t('hero')}}</span></h1>
                     <div class="  flex items-center sm:flex-row flex-row space-y-0 sm:space-y-0 sm:space-x-4">
                         <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400  w-[10rem] h-[5rem] sm:w-[15.93731rem] sm:h-[6.32213rem] text-[1rem] md:text-[1.75rem] text-white text-center font-normal">
                              <span class=" z-10 relative"> {{$t('play_now')}}</span>
