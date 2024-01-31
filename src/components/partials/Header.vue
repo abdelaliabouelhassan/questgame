@@ -32,7 +32,7 @@
 </template>
 
 <script setup> 
- import LangSwitch from '@/components/partials/UI/LangSwitch.vue'
+ import LangSwitch from './UI/LangSwitch.vue'
 </script>
 
 

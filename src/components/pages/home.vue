@@ -9,8 +9,8 @@ sdf
 
 
 <script setup>
- import MainLaout from '@/layouts/default.vue'
- import FirstSection from '@/components/partials/home/FirstSection.vue'
+ import MainLaout from '../../layouts/default.vue'
+ import FirstSection from '../partials/home/FirstSection.vue'
 </script>
 
 

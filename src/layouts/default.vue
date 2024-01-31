@@ -4,11 +4,11 @@
       <div class=" w-full">
           <slot />
       </div>
-        <!-- <Footer /> -->
+        <Footer />
     </div>
 </template>
 
 <script setup>
- import Header from '@/components/partials/Header.vue'
- import Footer from '@/components/partials/Footer.vue'
+ import Header from '../components/partials/Header.vue'
+ import Footer from '../components/partials/Footer.vue'
 </script>
