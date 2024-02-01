@@ -6,6 +6,7 @@
      <FourthSection />
      <FifthSection />
      <SixthSection />
+     <SeventhSection />
     </MainLaout>
 </template>
 
@@ -18,6 +19,7 @@
  import FourthSection from '../partials/home/FourthSection.vue'
  import FifthSection from '../partials/home/FifthSection.vue'
  import SixthSection from '../partials/home/SixthSection.vue'
+ import SeventhSection from '../partials/home/SeventhSection.vue'
 </script>
 
 
