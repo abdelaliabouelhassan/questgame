@@ -8,7 +8,7 @@
                             <div class=" max-w-[16rem] sm:max-w-[20rem] md:max-w-[25.625rem] max-h-[25.9375rem]">
                                <img src="/assets/hero.png" class=" w-full h-full object-cover" alt="">
                             </div>
-                            <h1 class=" text-center text-[#FFE0C3] text-[2rem] sm:text-[3rem] md:text-[4.5rem] leading-[152.778%] font-normal titleShadow">Experience The Fantasy</h1>
+                            <h1 class=" text-center text-[#FFE0C3] text-[2rem] sm:text-[3rem] md:text-[4.5rem] leading-[152.778%] font-normal titleShadow">{{$t('experience')}}</h1>
                             <div class=" pt-28">
                                  <button class=" relative textShadow pt-4 hover:scale-110 duration-200 hover:text-yellow-400  w-[10rem] h-[5rem] sm:w-[15.93731rem] sm:h-[6.32213rem] text-[1rem] md:text-[1.75rem] text-white text-center font-normal">
                                     <span class=" z-10 relative"> {{$t('play_now')}}</span>
