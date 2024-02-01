@@ -3,6 +3,7 @@
      <FirstSection />
      <SecondSection />
      <ThirdSection />
+     <FourthSection />
     </MainLaout>
 </template>
 
@@ -12,6 +13,7 @@
  import FirstSection from '../partials/home/FirstSection.vue'
  import SecondSection from '../partials/home/SecondSection.vue'
  import ThirdSection from  '../partials/home/ThirdSection.vue'
+ import FourthSection from '../partials/home/FourthSection.vue'
 </script>
 
 
