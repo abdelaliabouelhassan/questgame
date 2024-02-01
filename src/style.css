@@ -39,3 +39,23 @@
 .border-gradient-top {
     background: linear-gradient(to top, #EB6A21, #260E04);
 }
+
+
+.accordion  .accordion-item .accordion-content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+  
+.accordion .accordion-item .accordion-header{
+  cursor: pointer;
+}
+
+.accordion .accordion-item.active .accordion-content {
+  height: auto;
+  transition: height 0.3s ease;
+}
+
+.accordion .chevron {
+  transition: all 0.2s ease;
+}
