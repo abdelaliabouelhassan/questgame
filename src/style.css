@@ -13,7 +13,7 @@
 
 
 * {
-    font-family:'Quinthero', sans-serif;
+    font-family: 'Quinthero', sans-serif;
 }
 
 .titleShadow {
@@ -22,4 +22,20 @@
 
 .textShadow {
     text-shadow: 2.975px 2.975px 4.462px rgba(0, 0, 0, 0.30);
+}
+
+.border-gradient-bottom {
+    background: linear-gradient(to bottom, #EB6A21, #260E04);
+}
+
+.border-gradient-right {
+    background: linear-gradient(to right, #EB6A21, #260E04);
+}
+
+.border-gradient-left {
+    background: linear-gradient(to left, #EB6A21, #260E04);
+}
+
+.border-gradient-top {
+    background: linear-gradient(to top, #EB6A21, #260E04);
 }

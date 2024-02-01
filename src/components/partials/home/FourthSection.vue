@@ -48,9 +48,3 @@
     </section>
 </template>
 
-<style scoped>
- .border-gradient-bottom {
-    background: linear-gradient(to bottom, #EB6A21, #260E04);
-  }
-
-</style>

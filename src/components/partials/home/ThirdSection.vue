@@ -109,14 +109,3 @@
 </template>
 
 
-<style scoped>
- .border-gradient-right {
-    background: linear-gradient(to right, #EB6A21, #260E04);
-  }
-   .border-gradient-left {
-    background: linear-gradient(to left, #EB6A21, #260E04);
-  }
-    .border-gradient-top {
-    background: linear-gradient(to top, #EB6A21, #260E04);
-  }
-</style>
