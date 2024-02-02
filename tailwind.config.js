@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily:{
         quantico: ['Quantico','sans serif']
+      },
+      screens:{
+        xxs:'414px'
       }
     },
   },
