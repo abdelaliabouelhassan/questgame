@@ -1,29 +1,67 @@
 <template>
-    <section class=" w-full">
-        <div class=" w-full">
-             <div v-accordion class=" accordion  w-full bg-[#F9FAFB] dark:bg-[#1E2120]  cursor-pointer duration-200 p-[2.5rem]  hover:bg-[#ECF7F2] dark:hover:bg-[#384640] rounded-[2rem]">
-         <div class="accordion-item w-full flex flex-col items-start space-y-8">
-              <div class="accordion-header  w-full flex flex-col items-start space-y-10 ">
-                <div class=" w-[4.5rem] h-[4.5rem]  rounded-full bg-[#28D9BB] dark:bg-[#28D9BB] flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none" class=" m-auto">
-                            <path d="M33.042 35.75H26.042" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M29.542 39.4168V32.0835" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M21.9466 19.9282C21.7716 19.9098 21.5616 19.9098 21.3691 19.9282C17.2041 19.7815 13.8966 16.2065 13.8966 11.8065C13.8791 7.31484 17.3615 3.6665 21.649 3.6665C25.9366 3.6665 29.4191 7.31484 29.4191 11.8065C29.4191 16.2065 26.094 19.7815 21.9466 19.9282Z" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M21.6498 39.9852C18.4648 39.9852 15.2973 39.1419 12.8823 37.4552C8.6473 34.4852 8.6473 29.6452 12.8823 26.6936C17.6948 23.3202 25.5873 23.3202 30.3998 26.6936" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                </div>
-                <p class=" text-primary dark:text-white font-helvetica text-[1.75rem] md:text-[2.25rem] leading-[103.286%] font-medium">
-                   sdfsdfsdf
-                </p>
-           </div>
+    <section class=" w-full px-4 xl:px-0">
+        <div class=" w-full max-w-[78.75rem] mx-auto  border-gradient-right rounded-3xl p-px  overflow-hidden relative">
+            <div class="  w-full h-full bg-[#1F100A]  rounded-3xl p-4 sm:p-10 flex flex-col items-center justify-between pb-14 ">
+               <h1 class=" text-[#EB6A21] text-center font-normal text-[1rem] sm:text-[1.5rem] md:text-[2rem] leading-normal titleShadow">FAQ’s</h1>  
+               <span class=" text-center text-[#FFE0C3] text-[2rem] sm:text-[3.5rem] md:text-[4.5rem] leading-[140.278%] titleShadow">Foire Aux Questions</span>               
+               <div class=" w-full flex flex-col items-start space-y-4 max-w-[47.0625rem] pt-4">
+                <div v-for="(item,index,key) in Faq" :key="key" v-accordion class=" accordion  w-full bg-[#311A11]  cursor-pointer duration-200 p-[1.5rem]   rounded-lg">
+                    <div class="accordion-item w-full flex flex-col items-start">
+                        <div class="accordion-header  w-full flex items-center justify-between  ">
+                         
+                            <p class=" text-[1rem]  sm:text-[1.3125rem] font-normal leading-normal text-[#F2D3B6]">
+                             {{$t(item.title)}}
+                            </p>
+                            <div>
+                                <div class=" w-[1.96594rem] h-[1.96594rem] rounded-full overflow-hidden">
+                                    <img src="/assets/check.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
 
-            <div class=" accordion-content w-full max-w-[75rem]">
-                <p class=" text-2xl font-helvetica font-normal text-[#98A2B3]" >
-                    sdfdsfdsfsdf
-                </p>
-            </div>
-         </div>
-        </div>
+                        <div class=" accordion-content w-full max-w-[38.25rem]">
+                            <p class=" text-[#F2D3B6] text-[0.75rem] font-quantico leading-[150%] font-normal pt-4" >
+                               {{$t(item.content)}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>           
+             </div>
+
+
+       
         </div>
     </section>
 </template>
+
+
+<script setup>
+ import {ref} from 'vue'
+ const Faq = ref([
+    {
+        title:"que_quest",
+        content:"plateforme"
+    },
+     {
+        title:"comment",
+        content:"plateforme"
+    },
+     {
+        title:"personnaliser",
+        content:"plateforme"
+    },
+     {
+        title:"puis_je",
+        content:"plateforme"
+    },
+     {
+        title:"histoires",
+        content:"plateforme"
+    },
+     {
+        title:"rejoindre",
+        content:"plateforme"
+    }
+ ])
+</script>
